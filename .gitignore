@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+venv_new/
+
+# JS (app directory)
+app/node_modules/
+app/dist/
+app/dist-ssr/
+app/*.local
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+results/*/
+*.pt
+*.onnx
+# Exceptions: if you want to track specific models, comment the above line or add them here:
+# !results/best_y11.pt
+
+# Ignore the models in root as well
+yolo11n.pt
+yolov10s.pt
+yolov9c.pt
+
+# Reports (just in case any were missed or new ones created)
+*.pdf
+*.docx
+*.tex
