@@ -62,6 +62,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        <img src="/logo.png" alt="Waste Vision Logo" style={{ width: '120px', height: '120px', marginBottom: '1rem', borderRadius: '50%' }} />
         <h1>Underwater Waste Vision</h1>
         <p style={{ opacity: 0.7, marginBottom: '0.5rem' }}>Multi-Model Comparative Analysis</p>
         
