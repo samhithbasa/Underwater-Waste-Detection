@@ -10,7 +10,7 @@ Underwater Waste Vision is a cutting-edge application designed to detect and cla
 
 You can download the compiled Android application (APK) directly from the repository using the link below:
 
-[📥 **Download app-debug.apk**](https://raw.githubusercontent.com/samhithbasa/Underwater-Waste-Detection/main/app/android/app/build/outputs/apk/debug/app-debug.apk)
+[📥 **Download UnderwaterWasteDetection.apk**](https://raw.githubusercontent.com/samhithbasa/Underwater-Waste-Detection/main/app/android/app/build/outputs/apk/debug/UnderwaterWasteDetection.apk)
 
 ---
 
