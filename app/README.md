@@ -1,16 +1,28 @@
-# React + Vite
+# Underwater Waste Vision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Multi-Model Comparative Analysis for Underwater Waste Detection.
 
-Currently, two official plugins are available:
+## 📱 Download Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can download the compiled Android application (APK) directly from the repository using the link below:
 
-## React Compiler
+[📥 Download app-debug.apk](https://raw.githubusercontent.com/samhithbasa/Underwater-Waste-Detection/main/app/android/app/build/outputs/apk/debug/app-debug.apk)
+
+## 🚀 Project Overview
+
+This application provides a minimal setup to get React working in Vite with HMR and some ESLint rules, integrated with a backend for underwater waste detection using YOLO models.
+
+### Features
+- **Multi-Model Support**: Test and compare YOLOv9, YOLOv10, and YOLOv11 models.
+- **Connection Settings**: Easily update the backend tunnel URL.
+- **Visual Results**: View original and detected images side-by-side with detection summaries.
+
+## 🛠️ Development
+
+### Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled.
+
+### React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
